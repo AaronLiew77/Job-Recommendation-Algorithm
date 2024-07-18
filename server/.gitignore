@@ -1,11 +1,63 @@
-idea/
-.vscode/
+# Python-related
 __pycache__/
-.tox/
-.coverage
-.coverage.*
-htmlcov/
-docs/_build/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
 venv/
-.venv
+ENV/
+env/
+
+# Flask-related
+instance/
+.webassets-cache
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-related
+.DS_Store
+Thumbs.db
+
+# Vercel-related
+.vercel
+.now
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
